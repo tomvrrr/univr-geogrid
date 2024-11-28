@@ -82,6 +82,3 @@ df = (
         how = 'left'
     )
 )
-
-df.loc[df.COM.duplicated(False)].to_excel('TEST.xlsx')
-df.to_excel('TEST2.xlsx')
