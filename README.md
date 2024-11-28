@@ -30,18 +30,18 @@ Before aggregating, make sure
 
 ### Preparing the core table
 
-- `{shell} communes_core.py`: Uses the list of all communes information and validity (2024) as the core table to start the pipeline
-- `{shell} communes_with_postcode.py`: Enriches the core table with postal codes from 2024
-- `{shell} enriching_communes.py`: Enriches the core table with all level geographical codes (department, region, canton, arrondissement)
+- `communes_core.py`: Uses the list of all communes information and validity (2024) as the core table to start the pipeline
+- `communes_with_postcode.py`: Enriches the core table with postal codes from 2024
+- `enriching_communes.py`: Enriches the core table with all level geographical codes (department, region, canton, arrondissement)
 
 ### Preparing lookup data 
 
-- `{shell} insee_millesime_links.py`: Links for the source insee files used to build the code lookup
-- `{shell} insee_millesime_lookup.py`: Builds the code lookup
+- `insee_millesime_links.py`: Links for the source insee files used to build the code lookup
+- `insee_millesime_lookup.py`: Builds the code lookup
 
 ### Saving the file
 
-- `{shell} save_geogrid.py`: Final processing before saving the file
+- `save_geogrid.py`: Final processing before saving the file
 
 ## Other interesting links
 
