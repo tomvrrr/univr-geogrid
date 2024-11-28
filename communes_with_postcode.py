@@ -18,4 +18,3 @@ postcode = (
 
 ## Enriching df
 df = df.merge(postcode,on = 'COM',how = 'left')
-df.loc[lambda d: d.CODE_POSTAL_2024.isna()|d.COM.duplicated(False)].to_excel('TEST.xlsx')
