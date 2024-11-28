@@ -26,7 +26,7 @@ Before aggregating, make sure
 - Lyon / Paris / Marseille: Code Commune (COM) for the *arrondissements* are artificially derived from the [La Poste](https://datanova.laposte.fr/datasets/laposte-hexasmal) dataset (INSEE doesn't recognize *arrondissements* as distinct communes). Look for NCC field equals to 'LYON','MARSEILLE','PARIS'
 - Some *Code postal* are duplicated (multiple COM codes per *Code postal*) as a consequence of Code Commune duplication, or simply because multiple communes shared the same *Code postal*
 
-## Scripts escription
+## 🤖 Scripts Description
 
 ### Preparing the core table
 
