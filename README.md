@@ -45,5 +45,5 @@ Before aggregating, make sure
 
 ## Other interesting links
 
-- (French Cities)[https://tgrandje.github.io/french-cities/]: A Python Package developed by (DREAL)[https://www.hauts-de-france.developpement-durable.gouv.fr/]
-- Pynsee [https://github.com/InseeFrLab/pynsee]: A python package to consume the (INSEE)[https://www.insee.fr/fr/accueil] API
+- [French Cities] (https://tgrandje.github.io/french-cities/): A Python Package developed by [DREAL](https://www.hauts-de-france.developpement-durable.gouv.fr/)
+- [Pynsee](https://github.com/InseeFrLab/pynsee): A python package to consume the [INSEE](https://www.insee.fr/fr/accueil) API
